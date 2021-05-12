@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  background-image: url(images/back.jpg);
+
+  background-size: cover;
+  overflow: hidden;
+}
+
+#cont {
+  display: block;
+  border: 2px dotted #ff85c2;
+  position: center;
+  text-align: center;
+  justify-content: center;
+  width: 650px;
+  margin-top: 125px;
+  margin-left: 23%;
+  background-color: rgb(255, 133, 194, 0.8);
+  color: #17a2b8;
+  text-shadow: -1px 1px #17a2b8, 1px 1px black, 1px 1px black, 0 -1px black;
+  word-spacing: 3px;
+  font-size: x-large;
+  box-shadow: 10px 10px 5px grey;
+}
+
+h1 {
+  position: fixed;
+  justify-content: center;
+  text-align: center;
+  margin-top: 18%;
+  margin-left: 20%;
+  animation: text 1.5s steps(20);
+  overflow: hidden;
+  white-space: nowrap;
+  color: rgb(255, 133, 194);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h3 {
+  position: fixed;
+  justify-content: center;
+  text-align: center;
+  margin-top: 21%;
+  margin-left: 26%;
+  color: #17a2b8;
+  text-shadow: 2px 1px 5px #ff85c2;
+}
+#submit_button {
+  position: fixed;
+  color: #000000;
+  background-color: #ff85c2;
+  margin-top: 24%;
+  left: 46%;
+}
+.icon {
+  padding-right: 5px;
+}
+
+@keyframes text {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 450px;
+  }
+}
+#back {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  background-color: #17a2b8;
+  margin-top: 40%;
+  padding: 25px 30px;
+  animation: ani 5s steps(100);
+}
+@keyframes ani {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 1500px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  p {
+    background-color: lightblue;
+  }
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: rgb(133, 204, 200);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  left: 5%;
+}
+#b {
+  background-color: black;
+}
+h4 {
+  background-color: #17a2b8;
+}
+#e {
+  width: 350px;
+}
+#no {
+  width: 350px;
+}
+#name {
+  width: 350px;
+}
+#price {
+  width: 350px;
+}
+#back {
+  padding-top: 7%;
+}
+#copyright {
+  margin-bottom: 2500px;
+  background-color: #17a2b8;
+  animation: ani 5s steps(100);
+}
+@keyframes ani {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 1300px;
+  }
+}
+
+.icon {
+  padding-right: 5px;
+}
