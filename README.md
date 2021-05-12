@@ -12,6 +12,6 @@ email will be sent to the user for the payment received. The
 invoice will contain the amount.\
 ◇ On any page / email, only basic information is needed.\
 ◇ Create your own temporary / sandbox / testing accounts with 3rd
-party for integrations.\
+party for integrations.
 
 #Razorpay#GRIP2021#SparksFoundation#May2021
