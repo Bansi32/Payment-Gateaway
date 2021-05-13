@@ -1,4 +1,4 @@
-# Payment-Gateaway
+# Payment-Gateway
 
 ## Internship task
 
